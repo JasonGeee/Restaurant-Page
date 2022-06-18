@@ -1,0 +1,1 @@
+console.log("This is from the index.js file inside src folder.");
