@@ -1,5 +1,5 @@
 // Nav Bar
-function navBar() {
+export function navBar() {
     const content = document.getElementById('content');
 
     const nav = document.createElement('nav');
