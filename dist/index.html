@@ -5,10 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant Page</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <script src="main.js"></script>
 
-    <div id="content"></div>
+    <video autoplay muted id="myVideo">
+        <source src="./imgs/Blender Hyperspace Jump_1080p60.mp4" type="video/mp4">
+    </video>
+
+    <div id="content">
+        <div class="header">
+            <header>Star Wars Food</header>
+            <nav class="nav-container">
+                <ul>
+                    <li class="home"><a href="#">Home</a></li>
+                    <li class="menu">Menu</li>
+                    <li class="contact">Contact</li>
+                    <li class="about">About</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="home-container">
+            <span></span>
+            <h1 class="animate__animated animate__lightSpeedInLeft">Galaxy's Best Star Wars Food</h1>
+            <span></span>
+            <button>View Menu</button>
+        </div>
+        <div class="signature">
+            <a href="https://github.com/JasonGeee" target="_blank">Made By Jedi Master Jason</a>
+        </div>
+    </div>
+    
 </body>
 </html>
