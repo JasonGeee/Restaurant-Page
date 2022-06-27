@@ -11,5 +11,7 @@ export function footer() {
     link.href = "https://github.com/JasonGeee";
     link.textContent = "Made By Master Jedi Jason";
 
+    signature.appendChild(link);
+    footer.appendChild(signature);
     content.appendChild(footer);
 }
