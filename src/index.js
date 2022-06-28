@@ -10,6 +10,7 @@ init();
 
 // Opens About Page
 
+
 function init() {
     navBar();
     footer();

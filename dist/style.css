@@ -41,6 +41,29 @@ body {
     align-items: center;
 }
 
+/* Menu CSS */
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu > span {
+    
+}
+
+.menu > img {
+    width: 450px;
+    height: auto;
+}
+
+
 /* Signature CSS*/
 .signature {
     display: flex;
