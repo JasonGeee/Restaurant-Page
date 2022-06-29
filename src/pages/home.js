@@ -1,3 +1,4 @@
+// import { openMenu } from "./src/index.js";
 export function home() {
     const content = document.getElementById('content');
 
@@ -10,9 +11,11 @@ export function home() {
     title2.setAttribute('class', 'animate__animated animate__lightSpeedInLeft');
     const span = document.createElement('span');
 
-    const menuButton = document.createElement('button');
-    menuButton.textContent = "View Menu";
+    // const menuButton = document.createElement('button');
+    // menuButton.textContent = "View Menu";
 
-    home.append(title, title2, span, menuButton);
+    home.appendChild(title);
+    home.appendChild(title2);
+    home.appendChild(span);
     content.appendChild(home);
 }

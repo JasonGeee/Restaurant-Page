@@ -11,6 +11,8 @@ export function navBar() {
     navItems.forEach((item) => {
         const list = document.createElement('li');
         ul.appendChild(list);
+        list.setAttribute('id', item);
+        list.classList.add('navBtn');
         list.textContent = item;
     });
 
