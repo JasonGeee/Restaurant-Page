@@ -7,7 +7,7 @@ export function navBar() {
 
     const ul = document.createElement('ul');
     
-    const navItems = ['home', 'menu', 'contact', 'about'];
+    const navItems = ['Home', 'Menu', 'Contact'];
     navItems.forEach((item) => {
         const list = document.createElement('li');
         ul.appendChild(list);
