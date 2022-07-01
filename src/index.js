@@ -1,6 +1,6 @@
-import loadPage from "./pages/loadPage.js";
-import loadHome from "./pages/home.js";
-import loadMenu from "./pages/menu.js";
+import loadPage from "./pages/loadPage";
+import loadHome from "./pages/home";
+import loadMenu from "./pages/menu";
 
 init();
 
