@@ -73,7 +73,7 @@ main {
     height: 100vh;
 }
 
-main > h1 {
+.home-container > h1 {
     font-size: 4rem;
 }
 

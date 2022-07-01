@@ -1,40 +1,22 @@
-import { navBar } from "./assests/nav-bar";
-import { footer } from "./assests/footer";
-import { home as homePage } from "./pages/home";
-import { menu as menuPage } from "./pages/menu";
-
+import loadPage from "./pages/loadPage.js";
+import loadHome from "./pages/home.js";
+import menu from "./pages/menu.js";
 
 init(); //initial homepage load
-navButtons();
+// navButtons();
 
 function navButtons() {
-    const home = document.getElementById('Home');
-    const menu = document.getElementById('Menu');
-    const contact = document.getElementById('Contact');
+    const homeBtn = document.getElementById('Home');
+    // const menu = document.getElementById('Menu');
+    // const contact = document.getElementById('Contact');
 
-    home.addEventListener('click', homePage);
-    menu.addEventListener('click', menuPage);
-    // contact.addEventListener('click', );
+    homeBtn.addEventListener('click', loadHome);
 }
 
 // Opens Home Page
 function init() {
-    navBar();
-    homePage();
-    footer();
+    loadPage();
+    loadHome();
+    navButtons();
 }
-
-// Opens Menu Page
-export function openMenu() {
-    navBar();
-    menuPage();
-    footer();
-}
-
-// Opens Contact Page
-function openContact() {
-    navBar();
-    footer();
-}
-
 
