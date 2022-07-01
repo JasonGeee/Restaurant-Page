@@ -24,8 +24,11 @@ function createFood(src, alt, text, price) {
     return menuItem;
 }
 
-export function menu() {
-    const content = document.getElementById('content');
+function loadMenu() {
+    console.log('calling from loadMenu function');
+    const content = document.getElementById('tab-content');
+
+    content.textContent = ''; //removes all content
 
     const menu = document.createElement('div');
     menu.setAttribute('class', 'menu-container');
@@ -74,3 +77,5 @@ export function menu() {
     });
     content.appendChild(menu);
 }
+
+export default loadMenu;

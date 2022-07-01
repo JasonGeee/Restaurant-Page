@@ -1,16 +1,15 @@
 import loadPage from "./pages/loadPage.js";
 import loadHome from "./pages/home.js";
-import menu from "./pages/menu.js";
+import loadMenu from "./pages/menu.js";
 
-init(); //initial homepage load
-// navButtons();
+init();
 
 function navButtons() {
     const homeBtn = document.getElementById('Home');
-    // const menu = document.getElementById('Menu');
-    // const contact = document.getElementById('Contact');
+    const menuBtn = document.getElementById('Menu');
 
     homeBtn.addEventListener('click', loadHome);
+    menuBtn.addEventListener('click', loadMenu);
 }
 
 // Opens Home Page

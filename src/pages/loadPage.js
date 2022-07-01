@@ -1,6 +1,3 @@
-// import { navBar } from "./nav-bar.js";
-// import { footer } from "./footer.js";
-
 function createNavBar() {
     const content = document.getElementById('content');
 
@@ -9,7 +6,7 @@ function createNavBar() {
 
     const ul = document.createElement('ul');
     
-    const navItems = ['Home', 'Menu', 'Contact'];
+    const navItems = ['Home', 'Menu'];
     navItems.forEach((item) => {
         const list = document.createElement('li');
         ul.appendChild(list);
@@ -36,7 +33,6 @@ function createFooter() {
 
     signature.appendChild(link);
     footer.appendChild(signature);
-    // content.appendChild(footer);
 
     return footer;
 }
